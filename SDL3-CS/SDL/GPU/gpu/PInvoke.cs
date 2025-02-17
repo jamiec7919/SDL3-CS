@@ -899,7 +899,7 @@ public partial class SDL
     /// </summary>
     /// <param name="renderPass">a render pass handle.</param>
     /// <param name="firstSlot">the vertex buffer slot to begin binding from.</param>
-    /// <param name="bindings">an array of <see cref="GPUBufferBinding"/> structs containing vertex
+    /// <param name="bindings">a pointer to an array of <see cref="GPUBufferBinding"/> structs containing vertex
     /// buffers and offset values.</param>
     /// <param name="numBindings">the number of bindings in the bindings array.</param>
     /// <since>This function is available since SDL 3.2.0</since>
